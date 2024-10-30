@@ -262,7 +262,6 @@ while True:
     print ("[4]. Conversor de temperatura")
     print ("[5]. Baixar imagens")
     print ("[6]. Baixar video Youtube")
-    print ("[7]. Conversar de moeda")
     print ("[0]. Encerrar programa")
     
     escolha = int(input("Digite a sua escolha: "))
@@ -284,9 +283,6 @@ while True:
         
     elif escolha == 6:
         baixar_video_yt()
-        
-    elif escolha == 7:
-        conversor_de_moeda()
         
     elif escolha == 0:
         break
